@@ -348,27 +348,34 @@
   .socialfooter table td{
     background-color: #ebebeb;
   }
-  
+  .info .sign{
+    margin-top: 16.2037vh; text-align: center
+  }
+
+  .contactfoot table{
+    top: 5.4074vh;
+  }
 }
 
-@media (max-width: 420px){
+@media (max-width: 480px){
 
   body{
     height: 50vh;
   }
   .body{
-    height: 50vh;
+    height: 25vh;
   }
   .subjects{
-    margin-top: -20vh;
+    margin-top: -15vh;
+    margin-bottom: 6vh;
   }
 
   .box{
-    height: 30vh;
+    height: 17vh;
   }
 
   .footer{
-    margin-top: -60vh;
+    margin-top: -110vh;
   }
   .footer a{
     font-size: 1.25vw;
@@ -401,15 +408,17 @@
   }
 
   .bodyofficer td.lefttext{
-    font-size: 0.8333vw;
+    font-size: 1.8333vw;
+    
   }
 
   .bodyofficer td.righttext{
-    font-size: 0.8333vw;
+    font-size: 1.8333vw;
 }
 
   .bodyofficer td{
     height: 4.6296vh;
+    
   }
   .footer .officerfooter {
     position: absolute;
@@ -448,7 +457,8 @@
   }
 
   .socialtable td{
-    font-size: 0.8333vw;
+    font-size: 1.8333vw;
+    width: 80vw;
   }
 
   .bodysocial table {
@@ -456,14 +466,16 @@
     border-spacing: 0;
     width: 33%;
     border: 0.0521vw solid #ddd;
-    display: inline-block;
+    
     margin-top: 10.4167vw;
     margin-left: 26.5vw;
     margin-right: auto;
     }
+
     .bodysocial{
-      height: fit-content;
+      height: 140vh;
     }
+
 
     .bodycontact h1{
       font-size: 1.6667vw;
@@ -476,5 +488,13 @@
 
     .bodycontact{
       height: 90%;
+    }
+
+    .info .sign{
+      margin-top: 6.2037vh; text-align: center
+    }
+
+    .contactfoot table{
+      display: none;
     }
 }
